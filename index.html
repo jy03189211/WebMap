@@ -72,10 +72,9 @@ h1 {
       background:#f8f8f8;
       color:#404040;
       }
-
     .menu-ui a {
       background:#FFF;
-      color:#3887BE;
+      color:#404040;
       }
 </style>
 </head>
@@ -85,10 +84,10 @@ h1 {
    <h1>Charging spots in Helsinki Area</h1>
    <nav id='menu-ui' class='menu-ui'>
       <a href='#' class='active' id='filter-speed'>Charging Speed</a>
-      <a href='#' id='filter-all'>All</a>
-      <a href='#' id='filter-fast'>Fast</a>
-      <a href='#' id='filter-normal'>Normal</a>
-      <a href='#' id='filter-slow'>Slow</a>     
+      <a href='#' class='submenu' id='filter-all'>All</a>
+      <a href='#' class='submenu' id='filter-fast'>Fast</a>
+      <a href='#' class='submenu' id='filter-normal'>Normal</a>
+      <a href='#' class='submenu' id='filter-slow'>Slow</a>     
      </nav>
 </div>
 <div id='map' class='map pad2'>Map</div>
@@ -146,9 +145,8 @@ all.onclick = function() {
     });
     return false;
 };
-
 // Jquery menu selector
-var links = $('a');
+var links = $('.submenu');
 
 links.click(function() {
   links.css('background-color', '#FFF');
