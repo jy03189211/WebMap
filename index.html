@@ -101,6 +101,62 @@ fast = document.getElementById('filter-fast');
 normal = document.getElementById('filter-normal');
 slow = document.getElementById('filter-slow');
 
+var bounds = map.getBounds(),
+    topLeft = map.latLngToLayerPoint(bounds.getNorthWest()),
+    bottomRight = map.latLngToLayerPoint(bounds.getSouthEast()),
+    //existing = d3.set(),
+    drawLimit = bounds.pad(0.4);
+
+var pointsTypes=d3.map(),
+    points=[];
+
+var voronoi = d3.geom.voronoi()
+      .x(function(d) { return d.x; })
+      .y(function(d) { return d.y; });
+
+
+//get date from external file and returned with an array
+d3.csv("coordinate.csv",function(error,latlng){
+  points=latlng;
+  console.log(points);
+  points.forEach(function (d){
+    //project data to the x-y pixels system
+    var latlng = new L.LatLng(d.latitude, d.longitude);
+    var point = map.latLngToLayerPoint(latlng);
+    d.x = point.x;
+    d.y = point.y;
+  });
+});
+//points is empty????
+console.log(points);
+voronoi(points).forEach(function(d) { d.point.cell = d; });
+
+//put a overlay over the map
+var svg = d3.select(map.getPanes().overlayPane).append("svg")
+      .attr('id', 'overlay')
+      .attr("class", "leaflet-zoom-hide")
+      .style("width", map.getSize().x + 'px')
+      .style("height", map.getSize().y + 'px')
+      .style("margin-left", topLeft.x + "px")
+      .style("margin-top", topLeft.y + "px");
+
+var g = svg.append("g")
+      .attr("transform", "translate(" + (-topLeft.x) + "," + (-topLeft.y) + ")");
+
+var svgPoints = g.attr("class", "points")
+  .selectAll("g")
+    .data(points)
+  .enter().append("g")
+    .attr("class", "point");
+console.log(points)
+var buildPathFromPoint = function(point) {
+      return "M" + point.cell.join("L") + "Z";
+    }
+
+
+
+
+
 
 
 fast.onclick = function(e) {

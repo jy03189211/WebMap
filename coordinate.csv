@@ -1,0 +1,29 @@
+NAME,color,ADRESS,POST_NO,CITY,NUMBER_OF_PLUGINS,SPEED,CHARGERTYPE,Description,latitude,longitude
+ABC Aura,609128,Valtatie,21380,Aura,1,pika,CHAdeMO/CCS,Valtatie 21380 Aura 1 pika CHAdeMO/CCS,60.652993,22.581526
+Kauppakeskus Sello,609128,Leppävaarantie,2100,Espoo,4,hidas,Schuko,Leppävaarantie 2100 Espoo 4 hidas Schuko,60.214088,24.816321
+P-Kaupinkallio / Tapiola,609128,Kaupinkalliontie 7,2100,Espoo,7,hidas,Schuko,Kaupinkalliontie 7 2100 Espoo 7 hidas Schuko,60.178002,24.802327
+Prisma Olari,609128,Komeetankatu 2,2210,Espoo,2,normaali,Mennekes/Schuko,Komeetankatu 2 2210 Espoo 2 normaali Mennekes/Schuko,60.16712,24.735042
+S-market Nihtisilta,609128,Kutojantie 1,2630,Espoo,4,normaali,Mennekes/Schuko,Kutojantie 1 2630 Espoo 4 normaali Mennekes/Schuko,60.209624,24.752803
+ABC Nihtisilta,609128,Nihtisilta 4,2630,Espoo,1,pika,CHAdeMO,Nihtisilta 4 2630 Espoo 1 pika CHAdeMO,60.206961,24.753887
+ABC Deli Pohjois-Tapiola,609128,Kalevalantie 3,2760,Espoo,1,pika,CHAdeMO,Kalevalantie 3 2760 Espoo 1 pika CHAdeMO,60.185627,24.80792
+Fredrikinkatu 51-53,609128,Fredrikinkatu 51-53,100,Helsinki,1,normaali,Mennekes/Schuko,Fredrikinkatu 51-53 100 Helsinki 1 normaali Mennekes/Schuko,60.166846,24.933782
+P-Stockmann / Helsinki,609128,Aleksanterinkatu 52,100,Helsinki,6,hidas,IEC 60309 ind. 3-pin,Aleksanterinkatu 52 100 Helsinki 6 hidas IEC 60309 ind. 3-pin,60.168424,24.942334
+P-Eliel,609128,Elielinaukio,100,Helsinki,2,hidas,Schuko,Elielinaukio 100 Helsinki 2 hidas Schuko,60.171357,24.939937
+Q-Park Finlandian halli,609128,Karamzininranta 2,100,Helsinki,2,normaali,Mennekes/Schuko,Karamzininranta 2 100 Helsinki 2 normaali Mennekes/Schuko,60.174667,24.935261
+P-Kluuvi / EuroPark - Helsinki,609128,Puutarhakatu 1,100,Helsinki,2,hidas,Schuko,Puutarhakatu 1 100 Helsinki 2 hidas Schuko,60.17315,24.948073
+Sähkötalo,609128,Runeberginkatu 1,100,Helsinki,1,hidas,Mennekes/Schuko,Runeberginkatu 1 100 Helsinki 1 hidas Mennekes/Schuko,60.167846,24.930409
+Pohjoinen Makasiinikatu 9,609128,Pohjoinen Makasiinikatu 9,130,Helsinki,1,normaali,Mennekes/Schuko,Pohjoinen Makasiinikatu 9 130 Helsinki 1 normaali Mennekes/Schuko,60.165717,24.948825
+Pikku Satamakatu 4-6,609128,Pikku Satamakatu 4-6,160,Helsinki,1,normaali,Mennekes/Schuko,Pikku Satamakatu 4-6 160 Helsinki 1 normaali Mennekes/Schuko,60.165856,24.965936
+Tammasaarenkatu 7,609128,Tammasaarenkatu 7,180,Helsinki,1,normaali,Mennekes,Tammasaarenkatu 7 180 Helsinki 1 normaali Mennekes,60.161575,24.906734
+Verkkokauppa.com Jätkäsaari,609128,Tyynenmerenkatu 11,220,Helsinki,3,hidas,Schuko,Tyynenmerenkatu 11 220 Helsinki 3 hidas Schuko,60.156381,24.920937
+Esterinportti parkkipaikka,609128,Esterinportti 1,240,Helsinki,4,normaali,Mennekes/Schuko,Esterinportti 1 240 Helsinki 4 normaali Mennekes/Schuko,60.1974,24.927597
+Töölön kisahalli itäpuoli,609128,Paavo Nurmen kuja 1,250,Helsinki,4,normaali,Mennekes/Schuko,Paavo Nurmen kuja 1 250 Helsinki 4 normaali Mennekes/Schuko,60.183661,24.925922
+Luutnantinaukio parkkipaikka,609128,Luutnantintie 5,410,Helsinki,2,normaali,Mennekes/Schuko,Luutnantintie 5 410 Helsinki 2 normaali Mennekes/Schuko,60.248051,24.864204
+Kauppakeskus Kaari,609128,Kantelettarentie 1,420,Helsinki,8,hidas,Schuko,Kantelettarentie 1 420 Helsinki 8 hidas Schuko,60.235934,24.891222
+Säästöpankinranta 2,609128,Säästöpankinranta 2,530,Helsinki,1,normaali,Mennekes/Schuko,Säästöpankinranta 2 530 Helsinki 1 normaali Mennekes/Schuko,60.179593,24.948704
+Kulosaaren metroaseman liityntäparkkialue,609128,Kulosaaren puistotie 1,570,Helsinki,2,normaali,Mennekes/Schuko,Kulosaaren puistotie 1 570 Helsinki 2 normaali Mennekes/Schuko,60.188954,25.005052
+Oulunkylän tori,609128,Oulunkylän tori,640,Helsinki,4,normaali,Mennekes/Schuko,Oulunkylän tori 640 Helsinki 4 normaali Mennekes/Schuko,60.229031,24.965979
+Prisma Malmi,609128,Malmin Kauppatie 18,700,Helsinki,2,normaali,Mennekes/Schuko,Malmin Kauppatie 18 700 Helsinki 2 normaali Mennekes/Schuko,60.25191,25.010888
+Liityntäparkkipaikka,609128,Lupiinipolku,720,Helsinki,2,normaali,Mennekes/Schuko,Lupiinipolku 720 Helsinki 2 normaali Mennekes/Schuko,60.244008,24.995488
+Tapanilan juna-aseman itäpuolen parkkialue,609128,Jäkälätie 12,730,Helsinki,2,normaali,Mennekes/Schuko,Jäkälätie 12 730 Helsinki 2 normaali Mennekes/Schuko,60.28359,25.065095
+Puistolan juna-asema,609128,Raidepolku 15,750,Helsinki,2,normaali,Mennekes/Schuko,Raidepolku 15 750 Helsinki 2 normaali Mennekes/Schuko,60.273979,25.036859
